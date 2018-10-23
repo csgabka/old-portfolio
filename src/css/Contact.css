@@ -1,0 +1,27 @@
+/** {
+	margin: 0px;
+	background-color:;
+
+}*/
+
+#submit {
+	margin: 10px;
+}
+
+.contact {
+		padding-left: 12%;
+	padding-right: 12%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+
+}
+
+label {
+	text-align: center;
+}
+
+quote {
+	display: center;
+	color: #000000;
+}
+

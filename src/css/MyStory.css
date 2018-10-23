@@ -1,0 +1,21 @@
+.story_box {
+	padding-left: 12%;
+	padding-right: 12%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-color: #700548;
+	font-size: 2vw;
+	color: #FFFFFF;
+}
+
+h1 {
+	padding: 5%;
+}
+
+#profile_pic {
+	width: 15vw;
+	border-style: solid;
+	padding: 2px;
+	margin: 2px;
+	float: right;
+}

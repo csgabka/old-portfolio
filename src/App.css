@@ -1,0 +1,96 @@
+.App {
+  padding: 0px;
+  margin: 0px;
+  background-color: #3c3c3c;
+  min-height: 1024px;
+  background-size:contain;
+  background-position:center;
+  width: 100%;
+  text-align: left;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1vw;
+  font: #FFFFFF;
+  -webkit-font-smoothing: auto;
+  font-smooth: auto;
+  font-family: 'Quantico', sans-serif;
+}
+
+
+
+#navigation {
+    background-size:contain;
+    background-position:center;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    clear: both;
+}
+
+#slider {
+    -webkit-transition: width 2s ease;
+    -moz-transition: width 2s ease;
+    -o-transition: width 2s ease;
+    transition: width 2s ease;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    vertical-align: middle;
+    width: 0px;
+}
+
+#sliderOut {
+    -webkit-transition: width 2s ease;
+    -moz-transition: width 2s ease;
+    -o-transition: width 2s ease;
+    transition: width 2s ease;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    vertical-align: middle;
+    width: 310px;
+}
+
+.links {
+    text-align: center;
+    color: #F1F2F3;
+}
+
+a {
+    padding: 5px;
+    margin: 5px;
+    color: #F1F2F3;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#myStory {
+    border-left-style: solid;
+    padding-left: 10px;
+}
+
+#contact {
+    border-right-style: solid;
+    padding-right: 10px;
+}
+
+.front {
+    visibility: visible;
+    opacity: 1;
+    transition:visibility 2s linear,opacity 2s linear;
+}
+
+.back {
+   visibility: hidden;
+   opacity: 0;
+}
+
+h1 {
+  text-align: center;
+  position: center;
+}
+
