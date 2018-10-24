@@ -5,13 +5,13 @@
   "main": "index.js",
   "homepage": "https://csgabka.github.io/csgabka-portfolio/",
   "scripts": {
-    "start": "react-scripts start --prefix client",
-    "build": "react-scripts build --prefix client",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "server": "nodemon server.js",
-    "client": "npm run start --prefix client",
+    "client": "npm run build --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run dev",
+    "deploy": "gh-pages -d dev"
   },
   "author": "",
   "license": "ISC",
