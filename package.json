@@ -6,10 +6,11 @@
   "homepage": "https://csgabka.github.io/csgabka-portfolio/",
   "scripts": {
     "start": "react-scripts start",
+    "build": "react-scripts build",
     "server": "nodemon server.js",
     "client": "npm run start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "predeploy": "npm run dev",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dev"
   },
   "author": "",
