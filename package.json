@@ -9,7 +9,6 @@
     "client": "cd client && yarn start",
     "server": "nodemon server.js",
     "dev": "concurrently \"yarn server\" \"yarn client\"",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d dev"
   },
   "author": "",
