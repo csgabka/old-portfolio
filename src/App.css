@@ -93,7 +93,7 @@ a:hover {
 h1 {
   text-align: center;
   position: center;
-  font-size: 3.5vw;
+  font-size: 3vw;
 }
 
 
@@ -114,7 +114,7 @@ element.style {
   }
 
   #scroll-button {
-    font-size: 1vw;
+    font-size: 2vw;
   }
 
   h6 {
