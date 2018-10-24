@@ -1,0 +1,34 @@
+.logo {
+    clear: both;
+}
+
+#G {
+		float: left;  
+        -webkit-animation: rotation linear 4s infinite;
+        -moz-animation: rotation linear 4s infinite;
+        animation: rotation 4s linear infinite;
+        margin-left: 40px;
+        margin-top: 40px;
+        border-color: #000000;
+        border-style: solid;
+        background: rgba(156, 161, 196, 0.5);
+        font-size: 2em;
+ 		-webkit-transition: -webkit-transform .8s ease-in-out;
+ 		transition: transform .8s ease-in-out;
+        color: #010101;
+        text-shadow: 2px 2px #FFFFFF;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+#G:hover {
+    	-webkit-animation: rotation linear 1.5s infinite;
+        -moz-animation: rotation linear 1.5s infinite;
+        animation: rotation linear 1.5s infinite;
+ 		-webkit-transition: -webkit-transform .8s ease-in-out;
+  		transition: transform .8s ease-in-out;
+    }
+
+    @-moz-keyframes rotation { from { -webkit-transform: rotateY(359deg);} to {-webkit-transform: rotateY(0deg);}}
+    @-webkit-keyframes rotation { from {-webkit-transform: rotateY(359deg);}to {-webkit-transform: rotateY(0deg);}} 
+    @keyframes rotation { from {-webkit-transform: rotateY(359deg); } to {-webkit-transform: rotateY(0deg);}}
