@@ -16,19 +16,19 @@ self.__precacheManifest = [
     "url": "/csgabka-portfolio/static/js/runtime~main.7c212377.js"
   },
   {
-    "revision": "f029e664cc437c0b7673",
-    "url": "/csgabka-portfolio/static/js/main.f029e664.chunk.js"
+    "revision": "47435e582e51c3df5b6d",
+    "url": "/csgabka-portfolio/static/js/main.47435e58.chunk.js"
   },
   {
-    "revision": "dd4cb0ed558b31256da4",
-    "url": "/csgabka-portfolio/static/js/1.dd4cb0ed.chunk.js"
+    "revision": "c1b299c3c071fb1cc908",
+    "url": "/csgabka-portfolio/static/js/1.c1b299c3.chunk.js"
   },
   {
-    "revision": "f029e664cc437c0b7673",
-    "url": "/csgabka-portfolio/static/css/main.4eb2192c.chunk.css"
+    "revision": "47435e582e51c3df5b6d",
+    "url": "/csgabka-portfolio/static/css/main.879e9464.chunk.css"
   },
   {
-    "revision": "c5ef8782f87004c1dad738dd37a2a9b8",
+    "revision": "3b9ec5b70bf927631e170af20af55b81",
     "url": "/csgabka-portfolio/index.html"
   }
 ];
