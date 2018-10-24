@@ -8,7 +8,8 @@
     "server": "nodemon server.js",
     "client": "npm run start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "deploy": "gh-pages dev"
+    "predeploy": "npm run dev",
+    "deploy": "gh-pages -d dev"
   },
   "author": "",
   "license": "ISC",
