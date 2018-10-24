@@ -1,15 +1,14 @@
 {
   "name": "csgabka_backend",
   "version": "1.0.0",
-  "homepage": "https://csgabka.github.io/csgabka-portfolio/",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "client": "cd client && yarn start",
+    "start": "react-scripts start",
     "server": "nodemon server.js",
-    "dev": "concurrently \"yarn server\" \"yarn client\"",
-    "deploy": "gh-pages -d dev"
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "deploy": "gh-pages dev"
   },
   "author": "",
   "license": "ISC",

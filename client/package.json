@@ -1,5 +1,6 @@
 {
   "name": "csgabka",
+  "homepage": "https://csgabka.github.io/csgabka-portfolio/",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3001",
@@ -34,7 +35,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "server": "nodemon server.js",
-    "client": "npm run start"
+    "client": "npm run start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
