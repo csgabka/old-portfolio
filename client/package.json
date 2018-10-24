@@ -34,9 +34,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "server": "nodemon server.js",
-    "client": "npm run start",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "predeploy": "npm run build"
+    "client": "npm run start"
   },
   "eslintConfig": {
     "extends": "react-app"
