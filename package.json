@@ -20,6 +20,7 @@
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-page-scroller": "^1.4.0",
+    "react-particles": "0.0.3",
     "react-particles-js": "^2.3.0",
     "react-popupbox": "^2.0.8",
     "react-router": "^4.3.1",
