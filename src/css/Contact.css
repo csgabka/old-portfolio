@@ -1,34 +1,70 @@
-/** {
-	margin: 0px;
-	background-color:;
+.rotating_box {
+	width: 100px;
+	height: 100px;
+	margin: 10px auto;
+	perspective: 800px;
 
-}*/
-
-#submit {
-	margin: 10px;
-}
-
-.contact {
-		padding-left: 12%;
-	padding-right: 12%;
-	padding-top: 5%;
-	padding-bottom: 5%;
 
 }
 
-label {
-	text-align: center;
+.single_rb {
+	width: 100px;
+	animation: rotate 15s linear infinite;
+	transform-style: preserve-3d;
+	margin-top: 120px;
+
 }
 
-quote {
-	display: center;
-	color: #000000;
+.single_rb img {
+	height: 100px;
+	width: 100px;
 }
+
+.single_rb div {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+}
+
+.front_side {
+	transform: translateZ(200px);
+}
+
+.back_side {
+	transform: rotateY(180deg)
+	translateZ(-100px);
+}
+
+.left_side {
+	transform: rotateY(-90deg)
+	translateX(100px);
+	transform-origin: left;
+}
+
+.right_side {
+	transform: rotateY(90deg)
+	translateX(-100px);
+	transform-origin: right;
+}
+
+.top_side {
+	transform: rotateX(-90deg)
+	translateY(-200px);
+	transform-origin: top;
+}
+
+.bottom_side {
+	transform: rotateX(90deg)
+	translateY(200px);
+	transform-origin: bottom;
+}
+
+@keyframes rotate {
+	0% {transform: rotateY(0) rotateZ(0);}
+	100% {transform: rotateY(360deg) rotateZ(360deg);}
+}
+
 
 @media only screen and (max-width: 700px) {
-.form-control {
-	font-size: 0.5rem;
-	height: calc(1.25rem + 2px);
 
-	}
 }
