@@ -5,55 +5,61 @@ import FrontSide from '../img/psx_20181024_223039.jpg';
 import BackSide from '../img/psx_20181024_223123.jpg';
 import LeftSide from '../img/psx_20181024_223143.jpg';
 import RightSide from '../img/psx_20181024_223422.jpg';
+import Profile from '../img/17311080_10211117562268372_3587118879478260351_o.jpg';
+
 
 class Contact extends Component {
 	
-	render() {
-		{/*const particleOptions = {
-            		particles: {
-            			line_linked: {
-            				shadow: {
-            					enable: true,
-            					color: "#3CA9D1",
-            					blur: 5
-            				}
-            			}
-            		}
-            	}
+		constructor(props) {
+		super(props);
+		this.state = {
+			single_rb: "single_rb",
+			front: "front_side",
+			back: "back_side",
+			left: "left_side",
+			right: "right_side",
+			top: "top_side",
+			bottom: "bottom_side"
+		};
+	}
 
-           <Particles params={particleOptions}  /> 	*/}
+	onClick = (event) => {
+		this.setState ({ single_rb: "single_rb_onClick"});
+		this.setState ({ front: "front_side_onClick"});
+		this.setState ({ back: "back_side_onClick"});
+		this.setState ({ left: "left_side_onClick"});
+		this.setState ({ right: "right_side_onClick"});
+		this.setState ({ top: "top_side_onClick"});
+		this.setState ({ bottom: "bottom_side_onClick"});
+		
+	}
+
+     render() {     
 		return (
 		<div className="contact">
-		<h1>Connect me on social media</h1>
-		<div>
-			
+		<h1>Connect me on social media</h1>			
 		
 		<div class="rotating_box">
-			<div class="single_rb">
-				<div class="front_side">
+			<div class={this.state.single_rb} onClick={this.onClick}>
+				<div class={this.state.front}>
 					<img src={FrontSide} alt="" />
 				</div>
-				<div class="back_side">
+				<div class={this.state.back}>
 					<img src={BackSide} alt="" />
 				</div>
-				<div class="left_side">
+				<div class={this.state.left}>
 					<img src={LeftSide} alt="" />
 				</div>
-				<div class="right_side">
+				<div class={this.state.right}>
 					<img src={RightSide} alt="" />
 				</div>
-				<div class="top_side">
-					<img src={FrontSide} alt="" />
+				<div class={this.state.top}>
+					<img src={Profile} alt="" />
 				</div>
-				<div class="bottom_side">
-					<img src={FrontSide} alt="" />
+				<div class={this.state.bottom}>
+					<img src={Profile} alt="" />
 				</div>
 			</div>
-		</div>
-
-
-
-
 		</div>
 		
 		<hr />
