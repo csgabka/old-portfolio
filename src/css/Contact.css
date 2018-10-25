@@ -15,22 +15,32 @@
 	height: 100px;
 	margin: 10px auto;
 	perspective: 800px;
+
 }
 
 .single_rb {
 	width: 100px;
 	animation: rotate 15s linear infinite;
+	-webkit-transition: 15s;
+  	-moz-transition: 15s;
+  	-o-transition: 15s;
 	transition: 15s;
 	transform-style: preserve-3d;
 	margin-bottom: 120px;
+	animation-play-state: running;
+
 }
 
 .single_rb_onClick {
 	width: 100px;
-	animation: rotate 15s linear 1;
+	animation: rotate 15s linear infinite;
+	-webkit-transition: 15s;
+  	-moz-transition: 15s;
+  	-o-transition: 15s;
 	transition: 15s;
 	transform-style: preserve-3d;
 	margin-bottom: 120px;
+	animation-play-state: running;
 }
 
 .single_rb img {
@@ -43,7 +53,12 @@
 .single_rb_onClick img {
 	height: 100px;
 	width: 100px;
-	opacity: 0.8;
+	transition: 8s;
+	-webkit-transition: 8s;
+  	-moz-transition: 8s;
+  	-o-transition: transform 8s;
+  	opacity: 1;
+
 }
 
 .single_rb div {
@@ -65,6 +80,9 @@
 .front_side_onClick {
 	transform: translateZ(0px);
 	transition: transform 8s;
+	-webkit-transition: transform 8s;
+  	-moz-transition: transform 8s;
+  	-o-transition: transform 8s;
 }
 
 
@@ -78,6 +96,9 @@
 	translateZ(0px)
 	translateX(-100px);
 	transition: transform 8s;
+	-webkit-transition: transform 8s;
+  	-moz-transition: transform 8s;
+  	-o-transition: transform 8s;
 }
 
 .left_side {
@@ -91,6 +112,9 @@
 	translateX(100px);
 	transform-origin: left;
 	transition: transform 8s;
+	-webkit-transition: transform 8s;
+  	-moz-transition: transform 8s;
+  	-o-transition: transform 8s;
 }
 
 .right_side {
@@ -104,6 +128,9 @@
 	translateX(200px);
 	transform-origin: right;
 	transition: transform 8s;
+	-webkit-transition: transform 8s;
+  	-moz-transition: transform 8s;
+  	-o-transition: transform 8s;
 }
 
 .top_side {
@@ -120,6 +147,7 @@
   	transition: opacity 8s ease-in-out;
   	-moz-transition: opacity 8s ease-in-out;
   	-webkit-transition: opacity 8s ease-in-out;
+  	-o-transition: opacity 8s ease-in-out;
 }
 
 .bottom_side {
@@ -136,6 +164,7 @@
   	transition: opacity 8s ease-in-out;
   	-moz-transition: opacity 8s ease-in-out;
   	-webkit-transition: opacity 8s ease-in-out;
+  	-o-transition: opacity 8s ease-in-out;
 }
 
 @keyframes rotate {
