@@ -15,7 +15,7 @@ class App extends Component {
      this.state = {
        navStatus: 'back',
        id: "slider",
-       loading: true
+       isLoading: true
      };
      this.onIntroTyped=this.onIntroTyped.bind(this);
      this.scrollToTop = this.scrollToTop.bind(this);
@@ -35,11 +35,19 @@ class App extends Component {
   onIntroTyped(){
     this.setState({ navStatus: 'front'});
   }
+
+  componentDidMount() {
+    this.setState({isLoading: false})
+  }
   
   render() {
 
     return (      
 
+      this.state.isLoading
+      ?
+      <div className="loader">Loading</div>
+      :
       <div className="App">
           <nav id="navigation" className={this.props.navStatus}>
             <div className="links">
