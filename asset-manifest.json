@@ -1,7 +1,7 @@
 {
-  "main.css": "/csgabka-portfolio/static/css/main.490b660c.chunk.css",
-  "main.js": "/csgabka-portfolio/static/js/main.e0d5d95e.chunk.js",
-  "main.js.map": "/csgabka-portfolio/static/js/main.e0d5d95e.chunk.js.map",
+  "main.css": "/csgabka-portfolio/static/css/main.bc51c719.chunk.css",
+  "main.js": "/csgabka-portfolio/static/js/main.48cfe4e5.chunk.js",
+  "main.js.map": "/csgabka-portfolio/static/js/main.48cfe4e5.chunk.js.map",
   "static/js/1.80b0cde2.chunk.js": "/csgabka-portfolio/static/js/1.80b0cde2.chunk.js",
   "static/js/1.80b0cde2.chunk.js.map": "/csgabka-portfolio/static/js/1.80b0cde2.chunk.js.map",
   "runtime~main.js": "/csgabka-portfolio/static/js/runtime~main.7c212377.js",
@@ -13,8 +13,8 @@
   "static/media/psx_20181024_223422.jpg": "/csgabka-portfolio/static/media/psx_20181024_223422.ba7df38a.jpg",
   "static/media/Intro.css": "/csgabka-portfolio/static/media/intro_bg2.bbcfd54b.jpg",
   "static/media/port1_scrs.png": "/csgabka-portfolio/static/media/port1_scrs.0a38a82f.png",
-  "static/css/main.490b660c.chunk.css.map": "/csgabka-portfolio/static/css/main.490b660c.chunk.css.map",
+  "static/css/main.bc51c719.chunk.css.map": "/csgabka-portfolio/static/css/main.bc51c719.chunk.css.map",
   "index.html": "/csgabka-portfolio/index.html",
-  "precache-manifest.250b02f06f115ce58eca0871cd0c0fdb.js": "/csgabka-portfolio/precache-manifest.250b02f06f115ce58eca0871cd0c0fdb.js",
+  "precache-manifest.2bbde44599d81fc9507c78ce2ec5088e.js": "/csgabka-portfolio/precache-manifest.2bbde44599d81fc9507c78ce2ec5088e.js",
   "service-worker.js": "/csgabka-portfolio/service-worker.js"
 }
