@@ -28,10 +28,14 @@
   transform: translate(-50%, -50%);
 }
 
+img {
+  width: 100%;
+    height: auto;
+}
+
 .intro {
-  background: url(../img/intro_bg2.jpg) no-repeat fixed center;
+  /*background: url(../img/intro_bg2.jpg) no-repeat fixed center;*/
   position: relative;
-  min-height: 95vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;

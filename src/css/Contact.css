@@ -32,6 +32,19 @@
 
 }
 
+.single_rb_onClick {
+	width: 100px;
+	animation: rotate 15s linear infinite;
+	animation-fill-mode: both;
+	-webkit-transition: 15s;
+  	-moz-transition: 15s;
+  	-o-transition: 15s;
+	transition: 15s;
+	transform-style: preserve-3d;
+	margin-bottom: 120px;
+	animation-play-state: running;
+
+}
 
 .single_rb img {
 	height: 100px;

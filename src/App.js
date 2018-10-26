@@ -37,7 +37,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    setTimeout(() => this.setState({ isLoading: false }), 5000);
+    setTimeout(() => this.setState({ isLoading: false }), 3500);
   }
 
 

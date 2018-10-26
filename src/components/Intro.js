@@ -1,13 +1,14 @@
 import React, {Component} from 'react';
 import '../css/Intro.css';
 import Typist from 'react-typist';
-
+import intro_bg from '../img/intro_bg2.jpg';
 
 class Intro extends Component {
 
     	render() {
         return (
           <div className="intro">
+          <img src={intro_bg} alt=""/>
           <Typist className="text" avgTypingDelay={200} 
           startDelay={3000} 
           onTypingDone={this.props.onIntroTyped}
