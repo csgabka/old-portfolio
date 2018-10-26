@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import '../css/Intro.css';
 import Typist from 'react-typist';
-import intro_bg from '../img/intro_bg2.jpg';
+import intro_bg from '../img/bg-1.jpg';
 
 class Intro extends Component {
 

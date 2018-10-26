@@ -37,7 +37,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    setTimeout(() => this.setState({ isLoading: false }), 3500);
+    setTimeout(() => this.setState({ isLoading: false }), 4500);
   }
 
 
@@ -50,7 +50,7 @@ class App extends Component {
     return (
       <div id="app" className="App">
         <div>
-          <nav id="navigation" className={this.props.navStatus}>
+          <nav id="navigation" className={this.state.navStatus}>
             <div className="links">
               <a onClick={this.onMenuClick}>Menu</a>
                   <div id={this.state.id}>
