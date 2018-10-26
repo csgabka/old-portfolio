@@ -9,7 +9,7 @@ class Intro extends Component {
         return (
           <div className="intro">
           <Typist className="text" avgTypingDelay={200} 
-          startDelay={1500} 
+          startDelay={3000} 
           onTypingDone={this.props.onIntroTyped}
           cursor={{ hideWhenDone: true }}>
           CSGabka - Web Soluyio

@@ -37,18 +37,19 @@ class App extends Component {
   }
 
   componentDidMount() {
-    this.setState({isLoading: false})
+    setTimeout(() => this.setState({ isLoading: false }), 1500);
   }
+
+
   
   render() {
-
-    return (      
-
-      this.state.isLoading
-      ?
-      <div className="loader">Loading</div>
-      :
-      <div className="App">
+    const isLoading = this.state.isLoading;
+    if(isLoading) { // if your component doesn't have to wait for an async action, remove this block 
+      return null; // render null when app is not ready
+    }
+    return (
+      <div id="app" className="App">
+        <div>
           <nav id="navigation" className={this.props.navStatus}>
             <div className="links">
               <a onClick={this.onMenuClick}>Menu</a>
@@ -63,11 +64,11 @@ class App extends Component {
           <MyStory scrollToTop={this.scrollToTop} ref={(MyStory) => { this.MyStory = MyStory; }}/>
           <Portfolio scrollToTop={this.scrollToTop} ref={(Portfolio) => { this.Portfolio = Portfolio; }}/>
           <Contact scrollToTop={this.scrollToTop} ref={(Contact) => { this.Contact = Contact; }}/>
-      </div>
-    
+        </div>
+     )}
+    </div>
     );
-  }
-
+}
 }
 
 export default App;
