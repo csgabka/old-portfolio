@@ -39,24 +39,24 @@ class Contact extends Component {
 		<div className="contact">
 		<h1>Connect me on social media</h1>			
 		
-		<div class="rotating_box">
-			<div class={this.state.single_rb} onClick={this.onClick}>
-				<div class={this.state.front}>
+		<div className="rotating_box">
+			<div className={this.state.single_rb} onClick={this.onClick}>
+				<div className={this.state.front}>
 					<img src={FrontSide} alt="" />
 				</div>
-				<div class={this.state.back}>
+				<div className={this.state.back}>
 					<img src={BackSide} alt="" />
 				</div>
-				<div class={this.state.left}>
+				<div className={this.state.left}>
 					<img src={LeftSide} alt="" />
 				</div>
-				<div class={this.state.right}>
+				<div className={this.state.right}>
 					<img src={RightSide} alt="" />
 				</div>
-				<div class={this.state.top}>
+				<div className={this.state.top}>
 					<img src={Profile} alt="" />
 				</div>
-				<div class={this.state.bottom}>
+				<div className={this.state.bottom}>
 					<img src={Profile} alt="" />
 				</div>
 			</div>
