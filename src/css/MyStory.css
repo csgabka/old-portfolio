@@ -1,9 +1,11 @@
 .story_box {
+	border-top: solid;
+	border-color: #000000;
 	padding-left: 12%;
 	padding-right: 12%;
 	padding-top: 5%;
 	padding-bottom: 5%;
-	background-color: #700548;
+	background: linear-gradient(to bottom, #8C6529 0%, #5A3300 100%);
 	font-size: 2vw;
 	color: #FFFFFF;
 }

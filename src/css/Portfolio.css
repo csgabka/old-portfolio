@@ -3,7 +3,7 @@
 	padding-right: 12%;
 	padding-top: 5%;
 	padding-bottom: 5%;
-	background-color: #362023;
+	background: linear-gradient(to bottom, #5A3300 0%, #461F00 100%);
 	font-size: 2vw;
 	color: #FFFFFF;
 }

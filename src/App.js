@@ -66,7 +66,6 @@ class App extends Component {
           <Portfolio scrollToTop={this.scrollToTop} ref={(Portfolio) => { this.Portfolio = Portfolio; }}/>
           <Contact scrollToTop={this.scrollToTop} ref={(Contact) => { this.Contact = Contact; }}/>
         </div>
-     )}
     </div>
     );
 }
