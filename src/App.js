@@ -3,6 +3,7 @@ import Intro from './components/Intro';
 import MyStory from './components/MyStory';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+//import Cube from './components/Cube';
 import './App.css';
 import { animateScroll as scroll } from 'react-scroll';
 import scrollToComponent from 'react-scroll-to-component';
@@ -37,7 +38,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    setTimeout(() => this.setState({ isLoading: false }), 4500);
+    setTimeout(() => this.setState({ isLoading: false }), 3500);
   }
 
 
