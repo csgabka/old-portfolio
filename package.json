@@ -18,7 +18,6 @@
     "npm": "^6.4.1",
     "prop-types": "^15.6.2",
     "react": "^16.5.2",
-    "react-3d-cube": "^1.0.5",
     "react-dom": "^16.5.2",
     "react-native": "^0.57.4",
     "react-page-scroller": "^1.4.0",

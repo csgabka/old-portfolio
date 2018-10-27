@@ -1,10 +1,9 @@
 import React, { Component }  from 'react';
-import Cube from 'react-3d-cube';
-import FrontSide from '../img/psx_20181024_223039.jpg';
-import BackSide from '../img/psx_20181024_223123.jpg';
-import LeftSide from '../img/psx_20181024_223143.jpg';
-import RightSide from '../img/psx_20181024_223422.jpg';
-import Profile from '../img/17311080_10211117562268372_3587118879478260351_o.jpg';
+import '../css/Contact.css';
+import Facebook from '../img/psx_20181024_223123.jpg';
+import LinkedIn from '../img/psx_20181024_223143.jpg';
+import GMail from '../img/psx_20181024_223422.jpg';
+import WhatsApp from '../img/psx_20181024_223039.jpg';
 
 
 
@@ -13,30 +12,14 @@ class Contact extends Component {
     return (
     	<div className="contact">
     	<h1>Connect me on social media</h1>	
-    	<div >
+    	<div className="container">
+			  <div class="soc_med"><a href="https://www.facebook.com/csgab"><img id="facebook" class="mx-auto" src={Facebook} alt="front"/></a></div>
+			  <div class="soc_med"><a href="www.linkedin.com/in/csgabka"><img id="linkedin" class="mx-auto" src={LinkedIn} alt="right"/></a></div>
+			  <div class="soc_med"><a href="mailto:csgabkawebdev.gmail.com"><img id="gmail" class="mx-auto" src={GMail} alt="back"/></a></div>
+			  <div class="soc_med"><a href="facebook.co.uk"><img id="whatsapp" class="mx-auto" src={WhatsApp} alt="left"/></a></div>
 
-			
-			        <div className="cube_area"
-			          style={{
-			            width: 300,
-			            height: 300
-			          }}
-			        >
-			          <Cube size={80} index="front">
-			            <div><img src={FrontSide} alt="front"/></div>
-			            <div><img src={RightSide} alt="right"/></div>
-			            <div><img src={BackSide} alt="back"/></div>
-			            <div><img src={LeftSide} alt="left"/></div>
-			            <div><img src={FrontSide} alt="top"/></div>
-			            <div><img src={RightSide} alt="bottom"/></div>
-			          </Cube>
-			        </div>
-
-
-
-
-    	</div>
-		
+		</div>
+		<br />
 		<hr />
 		<button id="scroll-button" type="button" className="btn btn-outline-info" onClick={this.props.scrollToTop}>
 		Scroll me back to the top!</button>
