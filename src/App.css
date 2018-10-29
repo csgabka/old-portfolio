@@ -17,7 +17,13 @@
   font-family: 'Righteous', cursive;
 }
 
-
+.mymessage {
+  text-align: center;
+  margin-top: 50%;
+  color: #000000;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 9vw;
+}
 
 #navigation {
     background-size:contain;
@@ -106,7 +112,9 @@ element.style {
 }
 
 
-
+.rotate_msg {
+  background-color: #000000;
+}
 
 
 @media only screen and (max-width: 700px) {
