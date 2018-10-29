@@ -9,6 +9,7 @@ import { animateScroll as scroll } from 'react-scroll';
 import scrollToComponent from 'react-scroll-to-component';
 import PropTypes from 'prop-types';
 import ReactOrientation from 'react-orientation';
+import RotateImg from './img/rotate.png';
 
 class App extends Component {
 
@@ -50,7 +51,8 @@ class App extends Component {
 
     return (
           <div>
-          <ReactOrientation type="landscape"><div className="mymessage">Please rotate your device!</div></ReactOrientation>
+          <ReactOrientation type="landscape"><div className="mymessage">Please rotate your device!<br />
+          <img className="rotateImg" src={RotateImg} alt="rotate"/></div></ReactOrientation>
             <div id="app" className="App">
           <div>
           <nav id="navigation" className={this.state.navStatus}>
