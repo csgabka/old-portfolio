@@ -13,10 +13,10 @@ class Contact extends Component {
     	<div className="contact">
     	<h1>Connect me on social media</h1>	
     	<div className="container">
-			  <div class="soc_med"><a href="https://www.facebook.com/csgab"><img id="facebook" class="mx-auto" src={Facebook} alt="front"/></a></div>
-			  <div class="soc_med"><a href="www.linkedin.com/in/csgabka"><img id="linkedin" class="mx-auto" src={LinkedIn} alt="right"/></a></div>
-			  <div class="soc_med"><a href="mailto:csgabkawebdev.gmail.com"><img id="gmail" class="mx-auto" src={GMail} alt="back"/></a></div>
-			  <div class="soc_med"><a href="facebook.co.uk"><img id="whatsapp" class="mx-auto" src={WhatsApp} alt="left"/></a></div>
+			  <div className="soc_med"><a href="https://www.facebook.com/csgab"><img id="facebook" className="mx-auto" src={Facebook} alt="front"/></a></div>
+			  <div className="soc_med"><a href="www.linkedin.com/in/csgabka"><img id="linkedin" className="mx-auto" src={LinkedIn} alt="right"/></a></div>
+			  <div className="soc_med"><a href="mailto:csgabkawebdev.gmail.com"><img id="gmail" className="mx-auto" src={GMail} alt="back"/></a></div>
+			  <div className="soc_med"><a href="facebook.co.uk"><img id="whatsapp" className="mx-auto" src={WhatsApp} alt="left"/></a></div>
 
 		</div>
 		<br />

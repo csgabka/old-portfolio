@@ -1,0 +1,14 @@
+.footer {
+	text-align: center;
+	border-top-right-radius: 30%;
+	border-top-left-radius: 30%;
+	background: linear-gradient(to right, #966B50 0%, #000000 100%);
+	border-top: 2px solid #000000;
+  	
+}
+
+#logo {
+	display: inline-block;
+	width: 15vw;
+	border-radius: 1vw 1vw 1vw 1vw;
+}

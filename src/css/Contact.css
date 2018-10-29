@@ -1,12 +1,13 @@
 .contact {
 	padding: 0px;
     margin: 0px;
-	margin-bottom: 120px;
 	padding-left: 12%;
 	padding-right: 12%;
 	padding-bottom: 5%;
 	font-size: 2vw;
 	background-color: #9C0D38;
+	border-bottom-right-radius: 30%;
+	border-bottom-left-radius: 30%;	
 }
 
 .container {

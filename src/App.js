@@ -3,11 +3,11 @@ import Intro from './components/Intro';
 import MyStory from './components/MyStory';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
-//import Cube from './components/Cube';
+import Footer from './components/Footer';
 import './App.css';
 import { animateScroll as scroll } from 'react-scroll';
 import scrollToComponent from 'react-scroll-to-component';
-//import firebase from './firebase.js';
+import PropTypes from 'prop-types';
 
 class App extends Component {
 
@@ -39,18 +39,17 @@ class App extends Component {
 
   componentDidMount() {
     setTimeout(() => this.setState({ isLoading: false }), 3500);
-  }
-
-
-  
+}
+    
   render() {
     const isLoading = this.state.isLoading;
     if(isLoading) { // if your component doesn't have to wait for an async action, remove this block 
       return null; // render null when app is not ready
     }
+
     return (
-      <div id="app" className="App">
-        <div>
+            <div id="app" className="App">
+          <div>
           <nav id="navigation" className={this.state.navStatus}>
             <div className="links">
               <a onClick={this.onMenuClick}>Menu</a>
@@ -65,6 +64,7 @@ class App extends Component {
           <MyStory scrollToTop={this.scrollToTop} ref={(MyStory) => { this.MyStory = MyStory; }}/>
           <Portfolio scrollToTop={this.scrollToTop} ref={(Portfolio) => { this.Portfolio = Portfolio; }}/>
           <Contact scrollToTop={this.scrollToTop} ref={(Contact) => { this.Contact = Contact; }}/>
+          <Footer />
         </div>
     </div>
     );
