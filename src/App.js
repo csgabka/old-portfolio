@@ -3,7 +3,6 @@ import Intro from './components/Intro';
 import MyStory from './components/MyStory';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
-import Footer from './components/Footer';
 import './App.css';
 import { animateScroll as scroll } from 'react-scroll';
 import scrollToComponent from 'react-scroll-to-component';
@@ -69,7 +68,6 @@ class App extends Component {
           <MyStory scrollToTop={this.scrollToTop} ref={(MyStory) => { this.MyStory = MyStory; }}/>
           <Portfolio scrollToTop={this.scrollToTop} ref={(Portfolio) => { this.Portfolio = Portfolio; }}/>
           <Contact scrollToTop={this.scrollToTop} ref={(Contact) => { this.Contact = Contact; }}/>
-          <Footer />
         </div>
     </div>
     </div>
