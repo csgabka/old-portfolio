@@ -17,7 +17,8 @@ class App extends Component {
      this.state = {
        navStatus: 'back',
        id: "slider",
-       isLoading: true
+       isLoading: true,
+       rotating: 'accepted'
      };
      this.onIntroTyped=this.onIntroTyped.bind(this);
      this.scrollToTop = this.scrollToTop.bind(this);
@@ -41,6 +42,10 @@ class App extends Component {
   componentDidMount() {
     setTimeout(() => this.setState({ isLoading: false }), 3500);
 }
+
+cancelRotation = (event) => {
+  this.setState({rotating: 'cancelled'});
+} 
     
   render() {
     const isLoading = this.state.isLoading;
@@ -50,8 +55,6 @@ class App extends Component {
 
     return (
           <div>
-          <ReactOrientation type="landscape"><div className="mymessage">Please rotate your device!<br />
-          <img className="rotateImg" src={RotateImg} alt="rotate"/></div></ReactOrientation>
             <div id="app" className="App">
           <div>
           <nav id="navigation" className={this.state.navStatus}>

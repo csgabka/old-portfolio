@@ -15,12 +15,16 @@ class Portfolio extends Component {
 	    	];
 		return (
 			<div className="portfolio">
+			<div className="portfolio_header">
 			<h1>My Portfolio</h1>
 			<p>On this page you will a collection of my works.</p>
 			<Carousel slides={slides}/>
+			</div>
+			<div className="portfolio_footer">
 			<hr />
-			<button id="scroll-button" type="button" className="scroll btn btn-outline-info" onClick={this.props.scrollToTop}>
+			<button id="scroll-button" type="button" className="btn btn-outline-info" onClick={this.props.scrollToTop}>
 		Scroll me back to the top!</button>
+			</div>
 			</div>
 		);
 	}

@@ -3,10 +3,7 @@ import '../css/Contact.css';
 import Facebook from '../img/psx_20181024_223123.jpg';
 import LinkedIn from '../img/psx_20181024_223143.jpg';
 import GMail from '../img/psx_20181024_223422.jpg';
-import WhatsApp from '../img/psx_20181024_223039.jpg';
 import Logo from '../img/logo.jpg';
-
-
 
 class Contact extends Component {
   render() {

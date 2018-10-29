@@ -1,4 +1,6 @@
 .portfolio {
+	border-top: solid;
+	border-color: #000000;
 	padding-left: 12%;
 	padding-right: 12%;
 	padding-top: 5%;
@@ -8,7 +10,22 @@
 	color: #FFFFFF;
 }
 
+.portfolio_header {
+	min-height: 40vw;
+}
+
+.portfolio_footer {
+	margin-top: 15%;
+}
+
 img {
 	width: "100px";
 	height: "50px";
 }
+
+@media only screen and (max-width: 700px) {
+	.portfolio_header {
+	max-height: 40vw;
+	}
+}
+

@@ -121,6 +121,10 @@ element.style {
     width: 40%;
   }
 
+  .cancelled {
+    display: hidden;
+  }
+
 @media only screen and (max-width: 700px) {
   h1 {
       text-align: center;
