@@ -48,10 +48,10 @@ cancelRotation = (event) => {
 } 
     
   render() {
-    const isLoading = this.state.isLoading;
-    if(isLoading) { // if your component doesn't have to wait for an async action, remove this block 
-      return null; // render null when app is not ready
-    }
+    {/*const isLoading = this.state.isLoading;
+    if(isLoading) {  
+      return null; 
+    }*/}
 
     return (
           <div>
