@@ -6,7 +6,6 @@ import Contact from './components/Contact';
 import './App.css';
 import { animateScroll as scroll } from 'react-scroll';
 import scrollToComponent from 'react-scroll-to-component';
-import PropTypes from 'prop-types';
 import ReactOrientation from 'react-orientation';
 import RotateImg from './img/rotate.png';
 
