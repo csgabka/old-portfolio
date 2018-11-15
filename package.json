@@ -20,7 +20,6 @@
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-native": "^0.57.4",
-    "react-orientation": "^1.0.4",
     "react-page-scroller": "^1.4.2",
     "react-particles": "0.0.3",
     "react-particles-js": "^2.3.0",

@@ -14,13 +14,14 @@ class Portfolio extends Component {
 		let slides = [
 	     	<a href="https://github.com/csgabka/phonebook_interface"><img  src={Portfolio1} alt="1"/></a>,
 	    	<a href="https://github.com/csgabka/csgabka-portfolio"><img src={Portfolio2} alt="2"/></a>,
-	    	<img  src={Portfolio3} alt="3"/>
+	    	<a href="https://github.com/csgabka/React-Image-Gallery"><img  src={Portfolio3} alt="3"/></a>
 	    	];
 		return (
 			<div className="portfolio">
 			<div className="portfolio_header">
 			<h1>My Portfolio</h1>
 			<p>On this page you will a collection of my works.</p>
+			<p>When clicking on each work it will redirect you to my github profile, where you will see the sourcecode of each on of them.</p>
 			<Carousel slides={slides}/>
 			</div>
 			<div className="portfolio_footer">
