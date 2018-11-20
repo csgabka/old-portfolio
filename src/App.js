@@ -45,22 +45,17 @@ cancelRotation = (event) => {
 } 
     
   render() {
-    {/*const isLoading = this.state.isLoading;
-    if(isLoading) {  
-      return null; 
-    }*/}
-
     return (
           <div>
             <div id="app" className="App">
           <div>
           <nav id="navigation" className={this.state.navStatus}>
             <div className="links">
-              <a onClick={this.onMenuClick}>Menu</a>
+              <a onClick={this.onMenuClick} href="#">Menu</a>
                   <div id={this.state.id}>
-                  <a id="myStory" onClick={()=> {scrollToComponent(this.MyStory,{ offset: 0, align: 'top', duration: 1000})}}>My Story</a>
-                  <a id="portfolio" onClick={()=> {scrollToComponent(this.Portfolio,{ offset: 0, align: 'top', duration: 1000})}}>Portfolio</a>
-                  <a id="contact" onClick={()=> {scrollToComponent(this.Contact,{ offset: 0, align: 'top', duration: 1000})}}>Contact</a>
+                  <a href="#" id="myStory" onClick={()=> {scrollToComponent(this.MyStory,{ offset: 0, align: 'top', duration: 1000})}}>My Story</a>
+                  <a href="#" id="portfolio" onClick={()=> {scrollToComponent(this.Portfolio,{ offset: 0, align: 'top', duration: 1000})}}>Portfolio</a>
+                  <a href="#" id="contact" onClick={()=> {scrollToComponent(this.Contact,{ offset: 0, align: 'top', duration: 1000})}}>Contact</a>
                   </div>
              </div>
           </nav>
