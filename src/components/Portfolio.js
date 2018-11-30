@@ -55,7 +55,7 @@ class Portfolio extends Component {
 			<p className="technologies">Technologies used: HTML5, CSS3, Javascript, React.Js., Firebase</p>
 				{portfolios.map((portfolio) => {
 					return (
-					<div>
+					<div key={portfolio.id}>
 					<a href={portfolio.viewLink}><img name={portfolio.image} className="single-image" src={portfolio.image} key={portfolio.image} alt={portfolio.image}/></a>
 					<p className="portfolio-description">
 					{portfolio.description}<br />
