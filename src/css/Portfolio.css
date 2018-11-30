@@ -1,5 +1,4 @@
 .portfolio {
-	border-top: solid;
 	border-color: #000000;
 	padding-left: 12%;
 	padding-right: 12%;
@@ -11,9 +10,13 @@
 }
 
 .technologies {
-	color: brown;
+	color: #AFBBF4;
 	font-family: 'Libre Barcode 128 Text', cursive;
-	font-size: 4vw;
+	font-size: 3vw;
+	text-align: center;
+	padding: 5px;
+	background-color: rgb(0, 0, 0, 0.1);
+	border-radius: 50px;
 }
 
 a.source {
@@ -21,29 +24,47 @@ a.source {
 	font-size: 2.5vw;
 }
 
+a.source:hover {
+	opacity: 0.6;
+}
+
 .portfolio-description {
-	font-size: 1.4vw;
-	width: 33.33%;
+	padding: 10px;
+	border-radius: 20px;
+	background-color: rgb(0, 0, 0, 0.1);
+	font-size: 1.2vw;
+	width: 60%;
 	padding: 1%;
 	display: inline-block;
 	border-left: 1px solid black;
+	border-right: 1px solid grey;
 	top: 0;
 	position: relative;
 	vertical-align:top;
 }
 
-.portfolio-description a {
-	color: brown;
-	justify-content: center;
-}
 
 img.single-image {
-	width: 33.33%;
-	padding: 10px;
+	width: 30%;
+	padding: 8px;
+	border-radius: 40px;
+	border: 2px grey solid;
+	margin-bottom: 5px;
+	transition: 500ms all;
 }
 
 img.single-image:hover {
-	opacity: 0.6;
+	transform: scale(1.1);
+	transition: 500ms all;
+}
+
+.image-gallery {
+	background-color: rgb(0, 0, 0, 0.1);
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-radius: 20px;
 }
 
 @media only screen and (max-width: 700px) {
