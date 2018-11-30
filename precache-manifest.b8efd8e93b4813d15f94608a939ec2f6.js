@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/csgabka-portfolio/static/media/port1_scrs.a37649d0.png"
   },
   {
-    "revision": "4e14d02698a89dd4ebca",
-    "url": "/csgabka-portfolio/static/css/main.7bafee49.chunk.css"
+    "revision": "65b2e7609bbcd43030de",
+    "url": "/csgabka-portfolio/static/css/main.e970eb4e.chunk.css"
   },
   {
-    "revision": "0854745517ece9d0fe75",
-    "url": "/csgabka-portfolio/static/js/1.08547455.chunk.js"
+    "revision": "82c6cdfcb05feefff910",
+    "url": "/csgabka-portfolio/static/js/1.82c6cdfc.chunk.js"
   },
   {
     "revision": "7c212377db82d07bef7e",
@@ -28,12 +28,16 @@ self.__precacheManifest = [
     "url": "/csgabka-portfolio/static/media/port3_scrs.e3ca68f3.png"
   },
   {
-    "revision": "4e14d02698a89dd4ebca",
-    "url": "/csgabka-portfolio/static/js/main.4e14d026.chunk.js"
+    "revision": "65b2e7609bbcd43030de",
+    "url": "/csgabka-portfolio/static/js/main.65b2e760.chunk.js"
   },
   {
     "revision": "514a00ac5e9786bc56ded4807050e4ad",
     "url": "/csgabka-portfolio/static/media/port2_scrs.514a00ac.png"
+  },
+  {
+    "revision": "7e2bf1a77cdd0e921a207c89763ff589",
+    "url": "/csgabka-portfolio/static/media/port4_scrs.7e2bf1a7.png"
   },
   {
     "revision": "f730bd97ca337016a211964d1535447e",
@@ -52,7 +56,7 @@ self.__precacheManifest = [
     "url": "/csgabka-portfolio/static/media/logo.1af38807.jpg"
   },
   {
-    "revision": "1aafed1498c83eedee68a4f44ec71904",
+    "revision": "57d4515cac38eca6d3c9c1a9740c2842",
     "url": "/csgabka-portfolio/index.html"
   }
 ];
