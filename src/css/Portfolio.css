@@ -1,8 +1,8 @@
 .portfolio {
 	border-color: #000000;
-	padding-left: 12%;
-	padding-right: 12%;
-	padding-top: 5%;
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-top: 3%;
 	padding-bottom: 5%;
 	background: linear-gradient(to bottom, #5A3300 0%, #461F00 100%);
 	font-size: 2vw;
@@ -33,7 +33,7 @@ a.source:hover {
 	border-radius: 20px;
 	background-color: rgb(0, 0, 0, 0.1);
 	font-size: 1.2vw;
-	width: 60%;
+	width: 65%;
 	display: inline-block;
 	border-left: 1px solid black;
 	border-right: 1px solid grey;
@@ -69,6 +69,28 @@ img.single-image:hover {
 @media only screen and (max-width: 700px) {
 	.portfolio_header {
 	max-height: 40vw;
+	}
+
+	p.technologies {
+		font-size: 8vw;
+	}
+
+	p.portfolio-description {
+		font-size: 3vw;
+	}
+
+	img.single-image {
+	width: 30%;
+	padding: 1px;
+	border-radius: 20px;
+	border: 2px grey solid;
+	margin-bottom: 5px;
+	transition: 500ms all;
+	}
+
+	a.source {
+	font-family: 'Libre Barcode 128 Text', cursive;
+	font-size: 7vw;
 	}
 }
 

@@ -1,8 +1,8 @@
 .story_box {
 	border-top: solid;
 	border-color: #000000;
-	padding-left: 12%;
-	padding-right: 12%;
+	padding-left: 10%;
+	padding-right: 10%;
 	padding-top: 5%;
 	padding-bottom: 5%;
 	background: linear-gradient(to bottom, #8C6529 0%, #5A3300 100%);
@@ -28,5 +28,11 @@ h1 {
 	padding: 2px;
 	margin: 2px;
 	float: right;
+}
+
+@media only screen and (max-width: 700px) {
+	.story {
+		font-size: 3.5vw;
+	}
 }
 
