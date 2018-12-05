@@ -3,6 +3,9 @@ import Portfolio1 from '../img/port3_scrs.png';
 import Portfolio2 from '../img/port1_scrs.png';
 import Portfolio3 from '../img/port2_scrs.png';
 import Portfolio4 from '../img/port4_scrs.png';
+import Html5Logo from '../img/html5-logo.png';
+import Css3Logo from '../img/css3-logo.png';
+import JavascriptLogo from '../img/js-logo.png';
 import '../css/Portfolio.css';
 
 
@@ -11,6 +14,7 @@ class Portfolio extends Component {
 	constructor() {
 		super();
 		this.state = {
+			position: false,
 			portfolios: [
 				{
 					id: 1,
@@ -44,12 +48,51 @@ class Portfolio extends Component {
 		}
 	}
 
+	componentDidMount() {
+ 		 document.addEventListener('scroll', this.trackScrolling);
+	}
+
+	componentWillUnmount() {
+  		document.removeEventListener('scroll', this.trackScrolling);
+	}
+
+	isBottom(el) {
+  		return el.getBoundingClientRect().bottom <= window.innerHeight;
+	}
+
+	trackScrolling = () => {
+	  const skills = document.getElementById('skills');
+	  if (this.isBottom(skills)) {
+	    this.setState({position: true});
+	    document.removeEventListener('scroll', this.trackScrolling);
+	  }
+	};
+
 	render() {
-		const { portfolios } = this.state; 
-		return (
+		const { portfolios, position } = this.state; 
+			return (
 			<div className="portfolio">
 			<div className="portfolio_header">
-			<h1>My Portfolio</h1>
+				<h1>My Portfolio</h1>
+				<h3 id="skills">Top skills</h3>
+				{ position ? (
+					<div>
+					<div className="skills">
+						<div className="animated flipInY delay-1s html">
+							<img id="html5Logo" src={Html5Logo} alt="html5" />
+							<div className="battery first-charge"></div>
+						</div>
+						<div className="animated flipInY delay-2s css">
+							<img id="css3Logo" src={Css3Logo} alt="css3" />
+							<div className="battery second-charge"></div>
+						</div>
+						<div className="animated flipInY delay-3s js">
+							<img id="jsLogo" src={JavascriptLogo} alt="js" />
+							<div className="battery third-charge"></div>
+						</div>
+					</div>
+					</div>
+				) : null }
 			</div>
 			<div className="image-gallery">
 			<p className="technologies">Technologies used: HTML5, CSS3, Javascript, React.Js., Firebase</p>
@@ -69,7 +112,7 @@ class Portfolio extends Component {
 		Scroll me back to the top!</button>
 			</div>
 			</div>
-		);
+		);		
 	}
 	
 }
