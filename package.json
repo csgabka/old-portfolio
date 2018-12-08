@@ -13,8 +13,6 @@
     "live-server": "^1.2.0",
     "npm": "^6.4.1",
     "react": "^16.6.0",
-    "react-dom": "^16.6.0",
-    "react-lazy-load": "^3.0.13",
     "react-native": "^0.57.4",
     "react-page-scroller": "^1.4.2",
     "react-router": "^4.3.1",

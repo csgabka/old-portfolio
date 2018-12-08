@@ -2,16 +2,13 @@ import React, {Component} from 'react';
 import '../css/Intro.css';
 import Typist from 'react-typist';
 import intro_bg from '../img/bg-1.jpg';
-import LazyLoad from 'react-lazy-load';
 
 class Intro extends Component {
 
     	render() {
         return (
           <div className="intro">
-          <LazyLoad>
-          <img src={intro_bg} alt=""/>
-          </LazyLoad>
+          <img src={intro_bg} alt="csgabka-web-solutions"/>
           <Typist className="text" avgTypingDelay={200} 
           startDelay={3000} 
           onTypingDone={this.props.onIntroTyped}

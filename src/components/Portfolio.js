@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Portfolio1 from '../img/port3_scrs.png';
-import Portfolio2 from '../img/port1_scrs.png';
+import Portfolio2 from '../img/port1_scrs.jpg';
 import Portfolio3 from '../img/port2_scrs.png';
 import Portfolio4 from '../img/port4_scrs.png';
 import Portfolio5 from '../img/port5_scrs.jpg';
