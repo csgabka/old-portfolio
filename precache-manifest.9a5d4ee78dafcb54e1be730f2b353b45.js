@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "514a00ac5e9786bc56ded4807050e4ad",
-    "url": "/csgabka-portfolio/static/media/port2_scrs.514a00ac.png"
+    "revision": "7305a1084e92c553988d8d54f75cc98c",
+    "url": "/csgabka-portfolio/static/media/port2.7305a108.jpg"
   },
   {
-    "revision": "5f864dad0d36e126830b",
-    "url": "/csgabka-portfolio/static/css/main.ee6ca7f7.chunk.css"
+    "revision": "b0e00a38a6a27ab9eb1b",
+    "url": "/csgabka-portfolio/static/css/main.c652e125.chunk.css"
   },
   {
     "revision": "b3f2b92193b91b938584",
@@ -24,24 +24,24 @@ self.__precacheManifest = [
     "url": "/csgabka-portfolio/static/media/17311080_10211117562268372_3587118879478260351_o.820f61d6.jpg"
   },
   {
-    "revision": "e3ca68f3371501c6e35d7284b099417e",
-    "url": "/csgabka-portfolio/static/media/port3_scrs.e3ca68f3.png"
+    "revision": "0eb37788b5e72cf1829f553f76fc6bbc",
+    "url": "/csgabka-portfolio/static/media/port5.0eb37788.jpg"
   },
   {
-    "revision": "13fa8c85c665f36895d8ae1bf99bd1f8",
-    "url": "/csgabka-portfolio/static/media/port1_scrs.13fa8c85.jpg"
+    "revision": "88aff4a4986bf50e5f93033eddc1748e",
+    "url": "/csgabka-portfolio/static/media/port4.88aff4a4.jpg"
   },
   {
-    "revision": "5f864dad0d36e126830b",
-    "url": "/csgabka-portfolio/static/js/main.5f864dad.chunk.js"
+    "revision": "b0e00a38a6a27ab9eb1b",
+    "url": "/csgabka-portfolio/static/js/main.b0e00a38.chunk.js"
   },
   {
-    "revision": "7e2bf1a77cdd0e921a207c89763ff589",
-    "url": "/csgabka-portfolio/static/media/port4_scrs.7e2bf1a7.png"
+    "revision": "f386c86ca7b9552c842642d7f13c88b7",
+    "url": "/csgabka-portfolio/static/media/port3.f386c86c.jpg"
   },
   {
-    "revision": "c91e12be7526d2140c36284aeaf325be",
-    "url": "/csgabka-portfolio/static/media/port5_scrs.c91e12be.jpg"
+    "revision": "91eec72cc9b4adf34b468a320391006c",
+    "url": "/csgabka-portfolio/static/media/port1.91eec72c.jpg"
   },
   {
     "revision": "f730bd97ca337016a211964d1535447e",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/csgabka-portfolio/static/media/logo.1af38807.jpg"
   },
   {
-    "revision": "9f249a72bc23f15438e1ea7355834424",
+    "revision": "022c8b4fe170383b0804bac4d6b47eaf",
     "url": "/csgabka-portfolio/index.html"
   }
 ];
