@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/csgabka-portfolio/static/media/logo.1af38807.jpg"
   },
   {
-    "revision": "022c8b4fe170383b0804bac4d6b47eaf",
+    "revision": "87a9432a62d4736f99d0d09db4b4dfc3",
     "url": "/csgabka-portfolio/index.html"
   }
 ];
