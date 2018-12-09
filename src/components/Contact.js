@@ -14,7 +14,6 @@ class Contact extends Component {
 			  <div className="soc_med"><a href="https://www.facebook.com/csgab"><img id="facebook" className="mx-auto" src={Facebook} alt="front"/></a></div>
 			  <div className="soc_med"><a href="https://www.linkedin.com/in/csgabka/"><img id="linkedin" className="mx-auto" src={LinkedIn} alt="right"/></a></div>
 			  <div className="soc_med"><a href="mailto:csgabkawebdev.gmail.com"><img id="gmail" className="mx-auto" src={GMail} alt="back"/></a></div>
-
 		</div>
 		<img id="logo" src={Logo} alt="logo"/><br />
 		<br />

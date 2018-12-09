@@ -45,13 +45,13 @@ cancelRotation = (event) => {
 } 
     
   render() {
-    return (
+      return (
           <div>
             <div id="app" className="App">
           <div>
-          <nav id="navigation" className={this.state.navStatus}>
+          <nav id="navigation" className={ `sticky-top ${this.state.navStatus}`} >
             <div className="links">
-              <a onClick={this.onMenuClick} href="#">Menu</a>
+              <button id="open-menu" onClick={this.onMenuClick} className="btn btn-outline-light btn-xs btn-responsive">Menu</button>
                   <div id={this.state.id}>
                   <a href="#" id="myStory" onClick={()=> {scrollToComponent(this.MyStory,{ offset: 0, align: 'top', duration: 1000})}}>My Story</a>
                   <a href="#" id="portfolio" onClick={()=> {scrollToComponent(this.Portfolio,{ offset: 0, align: 'top', duration: 1000})}}>Portfolio</a>

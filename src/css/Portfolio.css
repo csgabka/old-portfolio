@@ -175,17 +175,17 @@ img.single-image:hover {
 
 	p.portfolio-description {
 		font-size: 3vw;
+		width: 100%;
 	}
 
 
 
 	img.single-image {
-	width: 30%;
+	width: 100%;
 	padding: 1px;
-	border-radius: 20px;
+	border-radius: 10px;
 	border: 2px grey solid;
-	margin-bottom: 5px;
-	transition: 500ms all;
+	margin-bottom: 2px;
 	}
 
 	a.source {

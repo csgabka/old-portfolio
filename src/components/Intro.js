@@ -9,8 +9,8 @@ class Intro extends Component {
         return (
           <div className="intro">
           <img src={intro_bg} alt="csgabka-web-solutions"/>
-          <Typist className="text" avgTypingDelay={200} 
-          startDelay={3000} 
+          <Typist className="text" avgTypingDelay={100} 
+          startDelay={1000} 
           onTypingDone={this.props.onIntroTyped}
           cursor={{ hideWhenDone: true }}>
           CSGabka - Web Soluyio
