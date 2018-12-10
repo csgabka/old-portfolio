@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/csgabka-portfolio/static/media/port2.7305a108.jpg"
   },
   {
-    "revision": "c0849091756f51b1e09b",
+    "revision": "8fd6ba2b2e828b39b2b7",
     "url": "/csgabka-portfolio/static/css/main.15e73f17.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/csgabka-portfolio/static/media/port4.88aff4a4.jpg"
   },
   {
-    "revision": "c0849091756f51b1e09b",
-    "url": "/csgabka-portfolio/static/js/main.c0849091.chunk.js"
+    "revision": "8fd6ba2b2e828b39b2b7",
+    "url": "/csgabka-portfolio/static/js/main.8fd6ba2b.chunk.js"
   },
   {
     "revision": "f386c86ca7b9552c842642d7f13c88b7",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/csgabka-portfolio/static/media/logo.1af38807.jpg"
   },
   {
-    "revision": "7338185e4c20c274d7081be5868f3dfd",
+    "revision": "e7baf3473b1120b16c44f56411880c55",
     "url": "/csgabka-portfolio/index.html"
   }
 ];
