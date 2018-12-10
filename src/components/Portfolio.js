@@ -27,7 +27,7 @@ class Portfolio extends Component {
 				{
 					id: 2,
 					image: Portfolio2,
-					description: 'This project is a BLOG app, built in Vanilla JS, backend is provided by Google`s Firebase. It has an administration surface available for all users for testing. When adding new posts, it automatically generates the current time and attaches to each post. The design is dinamic, where the user can choose between day and night mode when clicking on the orb on the left hand side corder.',
+					description: 'BLOG app. Built in Vanilla JS, backend is provided by Google`s Firebase. It has an administration interface available for all users for testing. When adding new posts, it automatically generates the current time and attaches to each post. The design is dinamic, where the user can choose between day and night mode when clicking on the orb on the left hand side corner.',
 					viewLink: 'https://csgabka-1539976293487.firebaseapp.com/',
 					viewSource: 'https://github.com/csgabka/JS-and-Firebase-Blog-App-with-day-and-night-design',
 				},
