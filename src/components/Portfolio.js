@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
-import Portfolio1 from '../img/port5.jpg';
-import Portfolio2 from '../img/port4.jpg';
+
+//import Portfolio1 from '../img/port5.jpg';
+//import Portfolio2 from '../img/port4.jpg';
 import Portfolio3 from '../img/port2.jpg';
-import Portfolio4 from '../img/port3.jpg';
+//import Portfolio4 from '../img/port3.jpg';
 import Portfolio5 from '../img/port1.jpg';
+import Portfolio6 from '../img/port6.jpg';
+import Portfolio7 from '../img/port7.jpg';
 import Html5Logo from '../img/html5-logo.png';
 import Css3Logo from '../img/css3-logo.png';
 import JavascriptLogo from '../img/js-logo.png';
@@ -19,17 +22,17 @@ class Portfolio extends Component {
 			portfolios: [
 				{
 					id: 1,
-					image: Portfolio1,
-					description: 'MUSIC INSTRUMENT APP. Built in: Javascript, HTML5, CSS3. The controllers were positioned with CSS flexbox. Each time a sound gets played, an audio element gets added to the DOM and once it has been played, it gets removed from the DOM. Controlling with keyboard, mouse click or tap. Hover effect and double tap has been disabled on touch devices to provide better user experience.',
-					viewLink: 'https://csgabka.github.io/Let-s-Play-Rock/',
-					viewSource: 'https://github.com/csgabka/Let-s-Play-Rock' 
+					image: Portfolio6,
+					description: 'CALCULATOR App. Built in ReactJs. I have used Math.js to evalute the calculations. Created a component which monitors the size of the display div. Every time it gets bigger than the parent div`s container it scales it down so the content on the display shrinks every time the content exceeds the available space.',
+					viewLink: 'https://csgabka.github.io/React-calculator/',
+					viewSource: 'https://github.com/csgabka/React-calculator' 
 				},
 				{
 					id: 2,
-					image: Portfolio2,
-					description: 'BLOG app. Built in Vanilla JS, backend is provided by Google`s Firebase. It has an administration interface available for all users for testing. When adding new posts, it automatically generates the current time and attaches to each post. The design is dinamic, where the user can choose between day and night mode when clicking on the orb on the left hand side corner.',
-					viewLink: 'https://csgabka-1539976293487.firebaseapp.com/',
-					viewSource: 'https://github.com/csgabka/JS-and-Firebase-Blog-App-with-day-and-night-design',
+					image: Portfolio7,
+					description: 'QUOTE MACHINE App. Built in ReactJs. It fetches in API which contains random quotes. Every time the data gets stored in the component`s state and this gets display. With the additional twitter button the user can tweet quotes as well.',
+					viewLink: 'https://csgabka.github.io/quote-machine/',
+					viewSource: 'https://github.com/csgabka/quote-machine',
 				},
 				{
 					id: 3,
@@ -38,15 +41,8 @@ class Portfolio extends Component {
 					viewLink: 'https://csgabka.github.io/React-Image-Gallery/',
 					viewSource: 'https://github.com/csgabka/React-Image-Gallery'
 				},
-				{	
-					id: 4, 
-					image: Portfolio4, 
-					description: 'PHONEBOOK APP. Fetches a random JSON file and at state level orders, filters, adds, removes or edits data from it.',
-					viewLink: 'https://csgabka.github.io/phonebook_interface/',
-					viewSource: 'https://github.com/csgabka/phonebook_interface' 
-				},
 				{
-					id: 5,
+					id: 4,
 					image: Portfolio5,
 					description: 'The project is my PERSONAL portfolio website. Built in React.',
 					viewLink: 'https://csgabka.github.io/csgabka-portfolio/',
@@ -103,7 +99,8 @@ class Portfolio extends Component {
 				) : null }
 			</div>
 			<div className="image-gallery">
-			<p className="technologies">Technologies used: HTML5, CSS3, Javascript, React.Js., Firebase</p>
+			<p className="technologies">Technologies used: HTML5, CSS3, Javascript, React.Js.</p>
+			<p>In this section you will find a collection of my projects. If you like what you see, please check out my<a href="https://github.com/csgabka?tab=repositories" className="github">Github</a>profile as well.</p>
 				{portfolios.map((portfolio) => {
 					return (
 					<div key={portfolio.id}>

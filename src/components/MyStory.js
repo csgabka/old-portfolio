@@ -9,6 +9,11 @@ class MyStory extends Component  {
 		return (
 		<div className="story_box" >
 		<h1>Hello and welcome...</h1>
+		<div class="video-container"><iframe title="about-me" width="560" height="315" src="https://www.youtube.com/embed/H3MMYK84tBE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"
+        mozallowfullscreen="mozallowfullscreen" 
+        msallowfullscreen="msallowfullscreen" 
+        oallowfullscreen="oallowfullscreen" 
+        webkitallowfullscreen="webkitallowfullscreen"></iframe></div>
 		<div className="story">
 			<p>My name is Gabi and I am an Entry Level Web Developer. I have created this website as a portfolio work. I have been living in London since 2010, but I was born in Hungary, this is where I graduated as a Computer Engineer(BSc).</p>
 			<img id="profile_pic" src={Profile} alt="profile_pic" />
@@ -16,7 +21,8 @@ class MyStory extends Component  {
 			<p> As a new Graduate, I was specialized in Web and Network technologies. Since then I have not worked in IT, instead - for several reasons - I have chosen Retail Management as a new, exciting and beneficial career field for 8 years. In 2018, I have made a decision - to choose a career which has always been at the back of my mind, so I started studying online. While I was working full time as a Retail Manager I spent most of my time studying, coding, learning from different sources, mainly from Youtube, Udemy and freeCodeCamp. </p>
 			<p>Web development has become my new life's essence. I find it fascinating when you learn to solve a problem and that makes you learn something else connecting to a different issue. The complexity of creating Web Applications unleashes my creativity, there are no limits.</p>
 			<p>I have done my projects using HTML5, CSS3, Javascript (ES6), React.JS and Firebase so far.</p>
-			<p>Apart from this music makes my days even more colorful. I like to sing, also I play the guitar and listen mostly blues and hard rock. I love going to concerts as many as I can. Thank you for visiting my page. If you would like to reach me, please do not hesitate to contact me.</p>
+			<p>Apart from this music makes my days even more colorful. I like to sing, also I play the guitar and listen mostly blues and hard rock. I love going to concerts as many as I can.</p>
+			<p>Thank you for visiting my page.</p>
 		</div>
 		<hr />
 		<button id="scroll-button" type="button" className="btn btn-outline-info" onClick={this.props.scrollToTop}>

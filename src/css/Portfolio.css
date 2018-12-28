@@ -10,6 +10,11 @@
 	position: relative;
 }
 
+.github {
+	font-size: 2vw;
+	color: #AFBBF4;
+}
+
 h3 {
 	text-align: center;
 	display:block;
