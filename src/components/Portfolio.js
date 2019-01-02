@@ -30,7 +30,7 @@ class Portfolio extends Component {
 				{
 					id: 2,
 					image: Portfolio7,
-					description: 'QUOTE MACHINE App. Built in ReactJs. It fetches an API which contains random quotes. Every time the data gets stored in the component`s state and this gets displayed. With the additional twitter button the user can tweet quotes as well.',
+					description: 'QUOTE MACHINE App. Built in ReactJs. With FETCH API it fetches an URL with random quotes. When the response is received, the data gets stored in the component`s state and this gets displayed. With the additional twitter button the user can tweet quotes as well.',
 					viewLink: 'https://csgabka.github.io/quote-machine/',
 					viewSource: 'https://github.com/csgabka/quote-machine',
 				},
