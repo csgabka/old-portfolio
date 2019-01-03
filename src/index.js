@@ -4,7 +4,8 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'compass';
-import 'babel-polyfill';
+import "babel-polyfill";
+import "isomorphic-fetch";
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
