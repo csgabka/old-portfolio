@@ -9,7 +9,7 @@ class MyStory extends Component  {
 		return (
 		<div className="story_box" >
 		<h1>Hello and welcome...</h1>
-		<div class="video-container"><iframe title="about-me" width="560" height="315" src="https://www.youtube.com/embed/H3MMYK84tBE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"
+		<div className="video-container"><iframe title="about-me" width="560" height="315" src="https://www.youtube.com/embed/H3MMYK84tBE" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen"
         mozallowfullscreen="mozallowfullscreen" 
         msallowfullscreen="msallowfullscreen" 
         oallowfullscreen="oallowfullscreen" 

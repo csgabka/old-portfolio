@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
-
-//import Portfolio1 from '../img/port5.jpg';
-//import Portfolio2 from '../img/port4.jpg';
 import Portfolio3 from '../img/port2.jpg';
-//import Portfolio4 from '../img/port3.jpg';
 import Portfolio5 from '../img/port1.jpg';
 import Portfolio6 from '../img/port6.jpg';
 import Portfolio7 from '../img/port7.jpg';
@@ -99,8 +95,8 @@ class Portfolio extends Component {
 				) : null }
 			</div>
 			<div className="image-gallery">
-			<p className="technologies">Technologies used: HTML5, CSS3, Javascript, React.Js.</p>
-			<p>In this section you will find a collection of my projects. If you like what you see, please check out my<a href="https://github.com/csgabka?tab=repositories" className="github">Github</a>profile as well.</p>
+			<p className="technologies">Technologies used: HTML5, CSS3, Bootstrap, Javascript, React, Firebase</p>
+			<p>In this section you will find a collection of my projects. If you like what you see, please keep on scrolling down to check out all my Github repositories as well.</p>
 				{portfolios.map((portfolio) => {
 					return (
 					<div key={portfolio.id}>
@@ -113,13 +109,10 @@ class Portfolio extends Component {
 			</div>
 			<div className="portfolio_footer">
 			<hr />
-			<button id="scroll-button" type="button" className="btn btn-outline-info" onClick={this.props.scrollToTop}>
-		Scroll me back to the top!</button>
 			</div>
 			</div>
 		);		
 	}
-	
 }
 
 export default Portfolio;

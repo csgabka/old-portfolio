@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Intro from './components/Intro';
 import MyStory from './components/MyStory';
 import Portfolio from './components/Portfolio';
+import Repositories from './components/Repositories';
 import Contact from './components/Contact';
 import './App.css';
 import { animateScroll as scroll } from 'react-scroll';
@@ -15,9 +16,11 @@ class App extends Component {
        navStatus: 'back',
        id: "slider",
        isLoading: true,
-       rotating: 'accepted'
+       rotating: 'accepted',
+       repositories: [],
+       timestamp: ""
      };
-     this.onIntroTyped=this.onIntroTyped.bind(this);
+     this.onIntroTyped = this.onIntroTyped.bind(this);
      this.scrollToTop = this.scrollToTop.bind(this);
    }
 
@@ -38,6 +41,12 @@ class App extends Component {
 
   componentDidMount() {
     setTimeout(() => this.setState({ isLoading: false }), 3500);
+    fetch('https://api.github.com/users/csgabka/repos')
+     .then(response => response.json())
+     .then(data => data.filter(data => {
+      return data.fork === false}))
+    .then(data => this.setState({repositories: data}));
+    this.setState({timestamp: Date()});
 }
 
 cancelRotation = (event) => {
@@ -62,6 +71,7 @@ cancelRotation = (event) => {
           <Intro onIntroTyped={this.onIntroTyped} />
           <MyStory scrollToTop={this.scrollToTop} ref={(MyStory) => { this.MyStory = MyStory; }}/>
           <Portfolio scrollToTop={this.scrollToTop} ref={(Portfolio) => { this.Portfolio = Portfolio; }}/>
+          <Repositories repositories={this.state.repositories} timestamp={this.state.timestamp}/>
           <Contact scrollToTop={this.scrollToTop} ref={(Contact) => { this.Contact = Contact; }}/>
         </div>
     </div>

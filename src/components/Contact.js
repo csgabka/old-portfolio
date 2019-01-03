@@ -9,7 +9,6 @@ class Contact extends Component {
   render() {
     return (
     	<div className="contact">
-    	<h1>Connect me on social media</h1>	
     	<div className="container">
 			  <div className="soc_med"><a href="https://www.facebook.com/csgab"><img id="facebook" className="mx-auto" src={Facebook} alt="front"/></a></div>
 			  <div className="soc_med"><a href="https://www.linkedin.com/in/csgabka/"><img id="linkedin" className="mx-auto" src={LinkedIn} alt="right"/></a></div>
@@ -20,7 +19,6 @@ class Contact extends Component {
 		<hr />
 		<button id="scroll-button" type="button" className="btn btn-outline-info" onClick={this.props.scrollToTop}>
 		Scroll me back to the top!</button>
-
 		</div>
     	);
 

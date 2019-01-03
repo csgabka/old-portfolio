@@ -1,0 +1,50 @@
+h2, h5 {
+	text-align: center;
+	padding: 5px;
+}
+
+.github-container {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.github-name {
+	color: #000;
+	background-color: #FFF;
+	border: 2px #461F00 solid;
+}
+
+.github-source {
+	color: #FFF;
+	background-color: #000;
+	border: 2px #461F00 solid;
+}
+
+.github-name-link {
+	color: #000;
+	font-size: 1.5vw;
+}
+
+.github-source-link {
+	font-size: 1.5vw;
+}
+
+.github-name-link:hover {
+	color: darkgrey;
+}
+
+.github-name-title {
+	color: lightgrey;
+}
+
+@media only screen and (max-width: 800px) {
+	.github-name-link {
+		font-size: 2.5vw;
+	}
+
+	.github-source-link {
+		font-size: 2.5vw;
+	}
+
+}

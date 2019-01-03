@@ -5,12 +5,13 @@
 	padding-right: 12%;
 	padding-bottom: 10%;
 	font-size: 2vw;
-	background-color: #9C0D38;
+	background-color: #461F00;
 	border-bottom-right-radius: 30%;
 	border-bottom-left-radius: 30%;	
 }
 
 .container {
+	padding-top: 10px;
 	width: 100%;
 	text-align: center;
 	height: 100px;
