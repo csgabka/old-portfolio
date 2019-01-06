@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
+import Portfolio1 from '../img/port6.jpg';
+import Portfolio2 from '../img/port7.jpg';
 import Portfolio3 from '../img/port2.jpg';
-import Portfolio5 from '../img/port1.jpg';
-import Portfolio6 from '../img/port6.jpg';
-import Portfolio7 from '../img/port7.jpg';
+import Portfolio4 from '../img/port1.jpg';
 import Html5Logo from '../img/html5-logo.png';
 import Css3Logo from '../img/css3-logo.png';
 import JavascriptLogo from '../img/js-logo.png';
@@ -18,14 +18,14 @@ class Portfolio extends Component {
 			portfolios: [
 				{
 					id: 1,
-					image: Portfolio6,
+					image: Portfolio1,
 					description: 'CALCULATOR App. Built in ReactJs. I have used Math.js to evalute the calculations. Created a component which monitors the size of the display div. Every time it gets bigger than the parent div`s container it scales it down so the content on the display shrinks every time the content exceeds the available space.',
 					viewLink: 'https://csgabka.github.io/React-calculator/',
 					viewSource: 'https://github.com/csgabka/React-calculator' 
 				},
 				{
 					id: 2,
-					image: Portfolio7,
+					image: Portfolio2,
 					description: 'QUOTE MACHINE App. Built in ReactJs. With FETCH API it fetches an URL with random quotes. When the response is received, the data gets stored in the component`s state and this gets displayed. With the additional twitter button the user can tweet quotes as well.',
 					viewLink: 'https://csgabka.github.io/quote-machine/',
 					viewSource: 'https://github.com/csgabka/quote-machine',
@@ -39,7 +39,7 @@ class Portfolio extends Component {
 				},
 				{
 					id: 4,
-					image: Portfolio5,
+					image: Portfolio4,
 					description: 'The project is my PERSONAL portfolio website. Built in React.',
 					viewLink: 'https://csgabka.github.io/csgabka-portfolio/',
 					viewSource: 'https://github.com/csgabka/csgabka-portfolio' 

@@ -6,7 +6,7 @@ const Repositories = ({repositories, timestamp}) => {
 		return (
 			<div>
 			<h2>Github repositories</h2>
-			<h5>Updated: {timestamp}</h5>
+			<h5>Fetched: {timestamp}</h5>
 			<div className="github-container">
 				<div className="row">
 					<div className="col-sm-6 h5 github-name-title">Demo</div>
